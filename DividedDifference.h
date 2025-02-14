@@ -5,6 +5,6 @@
 
 //Do obliczania różnicy dzielonej potrzebne nam to jest
 //Header file do deklaracji
-double roznicaDzielona(double Dane[][3], int wezly, int i, int k);
+double DividedDifference(double Dane[][3], int wezly, int i, int k);
 
 #endif //ROZNICADZIELONA_H

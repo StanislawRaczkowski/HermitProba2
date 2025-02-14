@@ -55,8 +55,20 @@ build CMakeFiles/HermitProba2.dir/main.c.obj: C_COMPILER__HermitProba2_unscanned
   OBJECT_DIR = CMakeFiles\HermitProba2.dir
   OBJECT_FILE_DIR = CMakeFiles\HermitProba2.dir
 
-build CMakeFiles/HermitProba2.dir/RoznicaDzielona.c.obj: C_COMPILER__HermitProba2_unscanned_Debug C$:/Users/August/CLionProjects/HermitProba2/RoznicaDzielona.c || cmake_object_order_depends_target_HermitProba2
-  DEP_FILE = CMakeFiles\HermitProba2.dir\RoznicaDzielona.c.obj.d
+build CMakeFiles/HermitProba2.dir/DividedDifference.c.obj: C_COMPILER__HermitProba2_unscanned_Debug C$:/Users/August/CLionProjects/HermitProba2/DividedDifference.c || cmake_object_order_depends_target_HermitProba2
+  DEP_FILE = CMakeFiles\HermitProba2.dir\DividedDifference.c.obj.d
+  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\HermitProba2.dir
+  OBJECT_FILE_DIR = CMakeFiles\HermitProba2.dir
+
+build CMakeFiles/HermitProba2.dir/generateHermitPolynomial.c.obj: C_COMPILER__HermitProba2_unscanned_Debug C$:/Users/August/CLionProjects/HermitProba2/generateHermitPolynomial.c || cmake_object_order_depends_target_HermitProba2
+  DEP_FILE = CMakeFiles\HermitProba2.dir\generateHermitPolynomial.c.obj.d
+  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\HermitProba2.dir
+  OBJECT_FILE_DIR = CMakeFiles\HermitProba2.dir
+
+build CMakeFiles/HermitProba2.dir/DisplayData.c.obj: C_COMPILER__HermitProba2_unscanned_Debug C$:/Users/August/CLionProjects/HermitProba2/DisplayData.c || cmake_object_order_depends_target_HermitProba2
+  DEP_FILE = CMakeFiles\HermitProba2.dir\DisplayData.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\HermitProba2.dir
   OBJECT_FILE_DIR = CMakeFiles\HermitProba2.dir
@@ -69,7 +81,7 @@ build CMakeFiles/HermitProba2.dir/RoznicaDzielona.c.obj: C_COMPILER__HermitProba
 #############################################
 # Link the executable HermitProba2.exe
 
-build HermitProba2.exe: C_EXECUTABLE_LINKER__HermitProba2_Debug CMakeFiles/HermitProba2.dir/main.c.obj CMakeFiles/HermitProba2.dir/RoznicaDzielona.c.obj
+build HermitProba2.exe: C_EXECUTABLE_LINKER__HermitProba2_Debug CMakeFiles/HermitProba2.dir/main.c.obj CMakeFiles/HermitProba2.dir/DividedDifference.c.obj CMakeFiles/HermitProba2.dir/generateHermitPolynomial.c.obj CMakeFiles/HermitProba2.dir/DisplayData.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\HermitProba2.dir
